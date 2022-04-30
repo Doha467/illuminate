@@ -46,6 +46,7 @@ void main() async
       child: Builder(
         builder: (context) {
           return MaterialApp(
+
             debugShowCheckedModeBanner: false,
            initialRoute:  Splash_Screen.scid,
            routes: {
@@ -66,10 +67,9 @@ void main() async
 
 
 
-
-
            },
             theme: Provider.of<Prov_theme_status>( context ).themeData
+
           );
         }
       ),

@@ -37,7 +37,7 @@ class _Req_list extends State<Req_list> {
             children: [
               Container(
                 decoration: BoxDecoration(
-                    color:Color.fromRGBO(204, 88, 76, 1),
+                    color:Color.fromRGBO(204, 88, 76, 1.0),
                     shape: BoxShape.circle
                 ),
                 height: height/10,
@@ -68,7 +68,7 @@ class _Req_list extends State<Req_list> {
                 ),
                 child: Icon(Icons.settings)),
             tooltip: 'Setting Icon',
-            color: Color.fromRGBO(204, 88, 76, 1),
+            color: Color.fromRGBO(204, 88, 76, 1.0),
             onPressed: () {},
           ), //Ic// onButton
           IconButton(

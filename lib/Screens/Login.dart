@@ -106,7 +106,7 @@ class _Login_ScreenState extends State<Login_Screen> {
                         textAlignVertical: TextAlignVertical.top,
                         obscureText: false,
                         style: TextStyle(
-                          color: Color.fromRGBO(204, 88, 76, 1)
+                          color: Color.fromRGBO(204, 88, 76, 1.0)
                         ),
                         decoration: InputDecoration(
 

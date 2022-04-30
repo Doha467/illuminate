@@ -112,7 +112,8 @@ class _Ins_Home_CategoryState extends State<Ins_Home_Category> {
                                         fontFamily: "cairo"
                                     ),),
                                     WidgetSpan(
-                                      child: Icon(Icons.location_on, size: height/55,color: Color.fromRGBO(204, 88, 76, 1),),
+                                      child: Icon(Icons.location_on, size: height/55,color: Color.fromRGBO(
+                                          204, 88, 76, 1.0),),
                                     ),
                                   ],
                                 ),
